@@ -5,3 +5,7 @@ Mở `dist/index.html` để xem trang giới thiệu hai khu công nghiệp; m�
 Biểu mẫu chỉ mô phỏng luồng xác nhận, không lưu hoặc gửi dữ liệu. Sơ đồ kết nối, định hướng ngành nghề và các đầu mục kỹ thuật cần được KNIC kiểm tra, bổ sung và phê duyệt trước khi dùng chính thức.
 
 Hình phối cảnh, logo và hình minh họa công nghệ cao được lấy từ [website KNIC](https://knic.com.vn/) cho mục đích demo.
+
+## Đưa lên Vercel
+
+Import repository này vào Vercel, chọn **Framework Preset: Other** và để trống **Build Command**. `vercel.json` đã đặt **Output Directory** là `dist`; không cần cài dependencies hoặc chạy build.
